@@ -1,3 +1,7 @@
+![version](https://img.shields.io/badge/version-1.4.0-blue)
+![GitHub repo size](https://img.shields.io/github/repo-size/ngdechev/smartbot?color=green)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/ngdechev/library)
+
 # SmartBot (ex R2-D2) - Discord Bot
 
 SmartBot is a multipurpose discord bot written in discord.js library. Тhe commands are divided into 5 categories - Administration, Fun, Music, Info, Utilities. Also it has hidden functionality like message cooldown, etc. The bot must have the following permissions to function properly: `Manage Roles`, `Manage Channels`, `Kick Members`, `Ban Members`, `Read Messages`, `Send Messages`, `Manage Messages`, `Read Message History`, `Add Reactions`, `Connect`, `Speak`, `Use Voice Activity`. 
@@ -108,3 +112,39 @@ SmartBot is a multipurpose discord bot written in discord.js library. Тhe comma
 *Leveling system: When member type a message, xp is randomly generated and when he has enough xp for the next level he level up.*
 
 *Coins system: When member type a message, a coins is randomly generated and added to member's wallet.*
+
+## How to run the bot
+
+```bash
+node .
+```
+
+or run
+
+```bash
+start.bat
+```
+
+<br>
+
+> *You need to put your bot token in .env file. Otherwise the bot won't work.*
+>
+> *You need to add your own Fortnite and YouTube API keys in /data/apikeys.json. Otherwise some feautures won't work.*
+
+<br>
+
+## Project Development
+The following programming languages were used for the development of the project:
+1. JavaScript
+2. JSON
+
+And the following libraries:
+
+1. discord.js v12.5.3
+
+And the following tools:
+
+1. Visual Studio Code
+2. Node.js
+
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![JSON](https://img.shields.io/badge/-JSON-black?style=for-the-badge) ![Discord](https://img.shields.io/badge/DISCORD.JS-v12.5.3-blue?style=for-the-badge&logo=discord) ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
